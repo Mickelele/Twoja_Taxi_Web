@@ -1,0 +1,94 @@
+.footer
+{
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+
+.tytul-footer
+{
+    margin: 0px;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+
+@media (min-width: 1000px)
+{
+    .kontakt-container
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        justify-content: space-evenly;
+        margin: 0px;
+    }   
+
+    .kontakt-info:hover
+    {
+    transform: scale(1.3);
+    }
+}
+
+
+
+
+.kontakt-info {
+    padding: 10px 20px;
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+.fa-phone, .fa-mobile-button, .fa-at
+{
+    position: absolute;
+    bottom: 10px;
+    left: -25px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+@media (max-width: 1000px)
+{
+    .kontant-container
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .tytul-footer
+    {
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+
+    .kontakt-info {
+        width: 100%;
+        max-width: 300px;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+}

@@ -1,0 +1,244 @@
+    .strona-glowna
+    {
+        width: 100%;
+        height: 850px;
+        background-color: rgb(0, 191, 99);
+    }
+    
+    .content
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 85%;
+        padding-top: 120px;
+    }
+    
+    .right-content, .left-content
+    {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 25px;
+    }
+    
+    .right-content
+    {
+        align-items: center;
+    }
+    
+    .zamow-taxi-button
+    {
+        background: black;
+        width: 240px;
+        height: 60px;
+        border-style: solid;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+
+    .zamow-taxi-button:hover
+    {
+        background-color: white;
+        color: black;
+    }
+    
+    .tytul
+    {
+        color: white;
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .samochody:hover
+    {
+        transform: scale(1.1);
+    }
+
+    .samochody
+    {
+        transition: 0.6s;
+        width: 100%;
+    }
+    
+    
+    .tytul-div
+    {
+        width: 80%;
+    }
+
+    @media (min-width: 1300px)
+    {
+        .header-mobile
+        {
+            display: none;
+        }
+
+        .linia2
+        {
+            display: none;
+        }
+    }
+
+
+@media (max-width: 1300px) 
+{
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding-top: 120px;
+        width: 100%;
+    }
+
+    .left-content, .right-content {
+        width: 100%;
+        height: auto;
+        margin: 0; 
+    }
+
+
+    .tytul
+    {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .header-mobile
+    {
+        background-color: black;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: fixed;
+        z-index: 100;
+    }
+
+
+    .menubar
+    {
+        color: rgb(0, 191, 99);
+        font-size: 45px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .logo-mobile
+    {
+        width: 100px;
+    }
+
+
+    .zamow-taxi-button:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    .linia1
+    {
+        display: none;
+    }
+
+
+    .menubar {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        background-color: black;
+    }
+    
+    .menubar i {
+        color: white;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        text-align: center;
+        width: 55%;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        border-radius: 10px;
+    }
+    
+    .menu a {
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        border-bottom: 1px solid white;
+        transition: 0.3s;
+    }
+
+    .menu a:last-child {
+        border-bottom: none; 
+    }
+    
+    .menu a:hover {
+        background-color: rgb(0, 191, 99);
+    }
+
+
+}
+
+
+
+@media (max-width: 650px) and (min-width: 451px)
+{
+    .strona-glowna
+    {
+        height: 700px;
+    }
+    .samochody
+    {
+        width: 300px;
+    }
+
+    .left-content
+    {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1300px)
+{
+    .samochody
+    {
+        width: 500px;
+    }
+
+    .left-content
+    {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+
+    <head>
+        <title>TwojeTaxi</title>
+        <link rel="icon" href="media/t.png" type="image/png">
+        <link rel="stylesheet" href="index-styles/general.css">
+        <link rel="stylesheet" href="index-styles/stron-glowna.css">
+        <link rel="stylesheet" href="index-styles/header.css">
+        <link rel="stylesheet" href="index-styles/strona-opis.css">
+        <link rel="stylesheet" href="index-styles/strona-cennik.css">
+        <link rel="stylesheet" href="index-styles/strona-nasze-samochody.css">
+        <link rel="stylesheet" href="index-styles/strona-informacje.css">
+        <link rel="stylesheet" href="index-styles/footer.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+
+    <body>
+
+        <div class="header-mobile">
+            <img class="logo-mobile" src="media/logoo.png">
+            <div class="menubar">
+                <i class="fas fa-bars" id="menu-icon"></i>
+            </div>
+
+            <div class="menu" id="dropdown-menu">
+                <a href="#cennik-element">Cennik</a>
+                <a href="#nasze-samochody-element">Nasze samochody</a>
+                <a href="#informacje-element">Informacje</a>
+                <a href="#kontakt-element">Kontakt</a>
+                <a href="zamawianie.html">Zamów TAXI</a>
+            </div>
+
+        </div>
+        
+
+        <div class="strona-glowna">
+            <div class="header">
+
+
+                <div class="left-section">
+                    <img class="logo" src="media/logoo.png"> 
+                </div>
+
+
+                <div class="middle-section">
+                    <button class="middle-button" onclick="window.location.href='#cennik-element';">CENNIK</button>
+                    <button class="middle-button" onclick="window.location.href='#nasze-samochody-element';">NASZE SAMOCHODY</button>
+                    <button class="middle-button" onclick="window.location.href='#informacje-element';">INFORMACJE</button>
+                    <button class="middle-button" onclick="window.location.href='#kontakt-element';">KONTAKT</button>
+                </div>
+
+
+                <div class="right-section">
+                    <button class="right-button" onclick="window.location.href='zamawianie.html';">ZAMÓW TAXI</button>
+                </div>
+
+            </div>
+            
+            <div>
+
+
+                <div class="content">
+
+                    
+                        <div class="right-content">
+                            <div class="tytul-div">
+                                <h1 class="tytul">Twoje Taxi zawsze w akcji.</h1>
+                            </div>
+                        
+                            <button class="zamow-taxi-button">
+                                ZAMÓW TAXI
+                            </button>
+                        </div>
+                            
+    
+                    <div class="left-content">
+                            <img class="samochody" src="media/samochody-strona-glowna.png">
+                    </div>
+    
+                </div>
+
+                <hr class="linia1" style="border: 2px solid black; width: 40%;">
+
+            </div>
+
+
+        </div> 
+
+
+
+        <div class="opis-div">
+
+            <div class="twoje-taxi">
+                TWOJE TAXI
+            </div>
+
+            <div class="frame-container">
+                <div class="opis-frame">
+                    <p class="tekst">
+                    Od ponad 15 lat zaspokajamy potrzeby naszych klientów, gwarantując niezawodność i punktualność.
+                    Zawieziemy państwa w każde miejsce w Polsce
+                    <p>
+                        <i class="fa-regular fa-clock"></i>
+                </div>
+
+                <div class="opis-frame">
+                    <p class="tekst">
+                        Gwarantujemy uczciwość  nasi kierowcy zawsze wybiorą najlepszą trasę bez ukrytych opłat.
+                        Oferujemy bezpieczny dowóz dzieci do szkoły i przedszkola
+                    <p>
+                        <i class="fa-solid fa-helmet-safety"></i>
+                </div>
+
+
+                <div class="opis-frame">
+                    <p class="tekst">
+                        Jakość usługi jest dla nas najważniejsza, staramy się zawsze dopasować do potrzeb klienta i dlatego oferujemy Ci między innymi
+                        możliwość przewożenia zwierząt lub zamówienia Vana.
+                    <p>
+                        <i class="fa-solid fa-paw"></i>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        <div class="cennik" id="cennik-element">
+            <div class="twoje-taxi">
+                CENNIK
+            </div>
+
+            <div class="tabela-cennik">
+                <table border="1">
+                    <thead>
+                        <tr><th colspan="2" class="green-background">Oplata poczatkowa - 10zl</th></tr>
+                        <tr><th colspan="2" class="green-background">Oplata za 1 km</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><th>Taryfa 1</th><th>3,00zl</th></tr>
+                        <tr><th>Taryfa 2</th><th>3,50zl</th></tr>
+                        <tr><th>Taryfa 3</th><th>6,00zl</th></tr>
+                        <tr><th>Taryfa 4</th><th>9,00zl</th></tr>
+                        <tr><th colspan="2" class="green-background">1 Godzina postoju - 60zl</th></tr>
+                        <tr><th>Zakupy w miejscie</th><th>30,00zl</th></tr>
+                        <tr><th>Odpalenie auta w miescie</th><th>40,00zl</th></tr>
+                    </tbody>
+                    
+                </table>
+            </div>
+        </div>
+
+
+
+        <div class="nasze-samochody" id="nasze-samochody-element">
+
+            <div class="twoje-taxi1">
+                NASZE SAMOCHODY
+            </div>
+
+            <div class="samochody-container">
+
+                <div class="samochody-frame">
+                   <div class="car-photo-berlingo">
+                        <img class="verso" src="media/verso.png">
+                   </div>
+
+                   <div class="car-info">
+                        <p class="car-model">TOYOTA VERSO</p>
+                        <p class="car-osoby">7 OSOBOWY</p>
+                   </div>
+                </div>
+
+
+                <div class="samochody-frame">
+                    <div class="car-photo-berlingo">
+                         <img class="berlingo" src="media/berlingo2.png">
+                    </div>
+ 
+                    <div class="car-info">
+                         <p class="car-model">CITROEN BERLINGO</p>
+                         <p class="car-osoby">5 OSOBOWY</p>
+                    </div>
+                 </div>
+
+
+                 <div class="samochody-frame">
+                    <div class="car-photo-berlingo">
+                         <img class="prius" src="media/prius.png">
+                    </div>
+ 
+                    <div class="car-info">
+                         <p class="car-model">TOYOTA PRIUS</p>
+                         <p class="car-osoby">5 OSOBOWY</p>
+                    </div>
+                 </div>
+                
+            </div>
+
+        </div>
+
+
+        <div class="informacje" id="informacje-element">
+
+            <hr style="border: 1px solid white; width: 40%; margin-top: 30px; margin-bottom: 100px;">
+
+            <div class="twoje-taxi">
+                INFORMACJE
+            </div>
+
+            
+            <div class="info-container">
+
+                <div class="info-frame">
+                    Możliwość płatności gotówką, kartą, blikiem.
+                    <i class="fa-solid fa-money-bill"></i>
+                </div>
+                
+
+
+                <div class="info-frame">
+                    Otwarci jesteśmy na przewóz małych i średnich zwierząt.
+                    <i class="fa-solid fa-dog"></i>
+                </div>
+                
+
+
+                <div class="info-frame">
+                    Dokonujemy zakupów z dowozem
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                
+
+
+                <div class="info-frame">
+                    Pomagamy przy uruchomieniu samochodów.
+                    <i class="fa-solid fa-car"></i>
+                </div>
+                
+                
+            </div>
+
+        </div>
+
+        <div class="footer" id="kontakt-element">
+            <hr style="border: 1px solid white; width: 40%; margin-bottom: 50px;">
+            <h1 class="tytul-footer">TWOJE TAXI</h1>
+            <div class="kontakt-container">
+
+                <div class="kontakt-info">
+                    <i class="fa-solid fa-mobile-button"></i>
+                    660 929 099
+                </div>
+
+                <div class="kontakt-info">
+                    <i class="fa-solid fa-phone"></i>
+                    25 758 00 10
+                </div>
+
+                <div class="kontakt-info">
+                    <i class="fa-solid fa-at"></i>
+                    brykolo@wp.pl
+                </div>
+
+            </div>
+            <hr style="border: 1px solid white; width: 90%; margin-top: 50px;">
+        </div>
+
+ 
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

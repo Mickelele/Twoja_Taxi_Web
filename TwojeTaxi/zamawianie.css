@@ -1,0 +1,130 @@
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+
+.strona-glowna
+{
+    height: 100%;
+}
+
+.formularz-kontaktowy
+{
+    background-color: black;
+    height: 90%;
+    width: 40%;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.napis
+{
+    position: relative;
+}
+
+
+.fa-phone, .fa-mobile-button, .fa-at
+{
+    position: absolute;
+    bottom: 7px;
+    left: -45px;
+    font-size: 30px;
+    color: white;
+}
+
+
+@media (max-width: 1000px) 
+{
+
+
+    .formularz-kontaktowy
+    {
+        width: 60%;
+        gap: 20px;
+    }
+}
+
+
+
+@media (max-width: 600px) 
+{
+
+
+    .formularz-kontaktowy
+    {
+        width: 70%;
+        height: 60%;
+        gap: 20px;
+    }
+
+    .content
+    {
+        font-size: 30px;
+    }
+
+
+    .fa-phone, .fa-mobile-button, .fa-at
+    {
+        bottom: 5px;
+        left: -35px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+@media (max-width: 400px) 
+{
+
+
+    .formularz-kontaktowy
+    {
+        width: 80%;
+        height: 50%;
+        gap: 20px;
+    }
+
+    .content
+    {
+        font-size: 25px;
+    }
+
+
+    .fa-phone, .fa-mobile-button, .fa-at
+    {
+        bottom: 3px;
+        left: -30px;
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 300px) 
+{
+
+
+    .formularz-kontaktowy
+    {
+        width: 90%;
+    }
+
+    .content
+    {
+        font-size: 20px;
+    }
+
+}
+
+
+
